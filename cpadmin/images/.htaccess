@@ -1,0 +1,10 @@
+<ifModule mod_php4.c>
+php_value engine off
+</ifModule>
+<ifModule mod_php5.c>
+php_value engine off
+</ifModule>
+
+<FilesMatch "\.(jpg|jpeg|gif|png)$">
+	Require all granted
+</FilesMatch>
